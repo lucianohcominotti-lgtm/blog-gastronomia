@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Avaliações dos melhores restaurantes do Brasil no blog Sabor & Arte." />
+  <title>Restaurantes | Sabor &amp; Arte</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-top">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🍽️</span>
+        <span class="logo-text">
+          <span class="logo-title">Sabor &amp; Arte</span>
+          <span class="logo-subtitle">Blog de Gastronomia</span>
+        </span>
+      </a>
+      <div class="header-info">
+        <span class="header-date" id="data-atual"></span>
+        <span class="header-slogan">Da cozinha ao coração 🧡</span>
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">🏠 Home</a></li>
+        <li><a href="receitas.html">🥘 Receitas</a></li>
+        <li><a href="restaurantes.html" class="active">🍴 Restaurantes</a></li>
+        <li><a href="dicas.html">💡 Dicas Culinárias</a></li>
+        <li><a href="contatos.html">📬 Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="page-hero">
+      <span class="page-hero-icon">🍴</span>
+      <h1>Restaurantes</h1>
+      <p>
+        Avaliações honestas dos melhores restaurantes do Brasil.
+        Ambiente, carta, atendimento e custo-benefício para você
+        escolher sempre o lugar certo para comer bem.
+      </p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>›</span>
+        <span>Restaurantes</span>
+      </div>
+    </div>
+
+    <!-- RESTAURANTES EM DESTAQUE -->
+    <section class="artigos" style="background: var(--cor-branco);">
+      <div class="section-header">
+        <span class="section-tag">⭐ Top Picks</span>
+        <h2>Restaurantes em Destaque</h2>
+        <p>Selecionamos os melhores para você não errar na escolha.</p>
+        <div class="divisor"></div>
+      </div>
+
+      <!-- Card grande destaque -->
+      <div style="max-width:1100px; margin:0 auto 40px; background:var(--cor-clara);
+                  border-radius:var(--raio); overflow:hidden; box-shadow:var(--sombra);
+                  display:grid; grid-template-columns:1.2fr 1fr;">
+        <img
+          src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=700&q=80"
+          alt="Interior sofisticado de restaurante"
+          style="width:100%; height:400px; object-fit:cover;"
+        />
+        <div style="padding:40px; display:flex; flex-direction:column; justify-content:center;">
+          <span style="background:var(--cor-primaria); color:#fff; font-size:0.72rem;
+                       font-weight:700; letter-spacing:1.5px; text-transform:uppercase;
+                       padding:4px 14px; border-radius:20px; display:inline-block;
+                       margin-bottom:16px; width:fit-content;">
+            🏆 Melhor do Mês
+          </span>
+          <h2 style="font-family:var(--fonte-titulo); color:var(--cor-primaria);
+                     font-size:1.8rem; margin-bottom:10px;">
+            Ora Pro Nóbis — Bistrô
+          </h2>
+          <p style="font-size:0.85rem; color:var(--cor-texto-claro); margin-bottom:10px;">
+            📍 Jardins, São Paulo, SP
+          </p>
+          <span style="color:#f4c542; font-size:1.1rem; margin-bottom:14px; display:block;">
+            ★★★★★
+          </span>
+          <p style="font-size:0.93rem; color:var(--cor-texto-claro); line-height:1.8;
+                    margin-bottom:20px;">
+            Um bistrô contemporâneo que reinventa a culinária mineira com
+            sofisticação e criatividade. O chef utiliza ingredientes locais
+            e técnicas modernas para criar pratos que são verdadeiras obras
+            de arte gastronômicas. Ambiente acolhedor, carta de vinhos
+            impecável e atendimento excepcional.
+          </p>
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-bottom:20px;">
+            <span style="background:var(--cor-destaque); color:var(--cor-primaria);
+                         padding:5px 14px; border-radius:20px; font-size:0.8rem;
+                         font-weight:600;">🇧🇷 Mineira</span>
+            <span style="background:var(--cor-clara); color:var(--cor-texto);
+                         padding:5px 14px; border-radius:20px; font-size:0.8rem;
+                         border:1px solid #ddd;">💰 R$180–250/pessoa</span>
+            <span style="background:var(--cor-clara); color:var(--cor-texto);
+                         padding:5px 14px; border-radius:20px; font-size:0.8rem;
+                         border:1px solid #ddd;">🕐 Ter–Dom</span>
+          </div>
+          <a href="#" style="display:inline-block; background:var(--cor-primaria);
+                             color:#fff; padding:12px 24px; border-radius:50px;
+                             text-decoration:none; font-weight:600; font-size:0.88rem;
+                             transition:all 0.3s; width:fit-content;"
+             onmouseover="this.style.background='var(--cor-secundaria)'"
+             onmouseout="this.style.background='var(--cor-primaria)'">
+            Ler Avaliação Completa →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GRID DE RESTAURANTES -->
+    <section class="artigos">
+      <div class="section-header">
+        <span class="section-tag">🗺️ Por Todo o Brasil</span>
+        <h2>Mais Avaliações</h2>
+        <p>De norte a sul, os endereços que você precisa conhecer.</p>
+        <div class="divisor"></div>
+      </div>
+      <div class="restaurantes-grid" style="max-width:1100px; margin:0 auto;">
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80"
+            alt="Restaurante moderno iluminado"
+          />
+          <div class="restaurante-body">
+            <h3>Mocotó</h3>
+            <p class="restaurante-local">📍 Vila Medeiros, São Paulo, SP</p>
+            <span class="estrelas">★★★★★</span>
+            <p>
+              Ícone da culinária nordestina em São Paulo. O caldo de mocotó
+              e os pratos de origem sertaneja ganham requinte sem perder
+              a autenticidade que consagrou o restaurante.
+            </p>
+            <span class="tag-culinaria">🇧🇷 Nordestina</span>
+          </div>
+        </div>
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80"
+            alt="Mesa de restaurante japonês"
+          />
+          <div class="restaurante-body">
+            <h3>Jun Sakamoto</h3>
+            <p class="restaurante-local">📍 Jardins, São Paulo, SP</p>
+            <span class="estrelas">★★★★★</span>
+            <p>
+              O melhor sushi do Brasil segundo especialistas. O chef
+              Jun Sakamoto domina a técnica japonesa com ingredientes
+              fresquíssimos e uma experiência omakase inesquecível.
+            </p>
+            <span class="tag-culinaria">🇯🇵 Japonesa</span>
+          </div>
+        </div>
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=600&q=80"
+            alt="Restaurante aconchegante"
+          />
+          <div class="restaurante-body">
+            <h3>Lasai</h3>
+            <p class="restaurante-local">📍 Botafogo, Rio de Janeiro, RJ</p>
+            <span class="estrelas">★★★★★</span>
+            <p>
+              Uma estrela Michelin e referência da culinária autoral
+              carioca. Menu degustação que valoriza o produtor local
+              e a sazonalidade dos ingredientes brasileiros.
+            </p>
+            <span class="tag-culinaria">🌿 Autoral Brasileira</span>
+          </div>
+        </div>
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600&q=80"
+            alt="Churrascaria com brasa"
+          />
+          <div class="restaurante-body">
+            <h3>Fogo de Chão</h3>
+            <p class="restaurante-local">📍 Pinheiros, São Paulo, SP</p>
+            <span class="estrelas">★★★★☆</span>
+            <p>
+              A tradicional churrascaria gaúcha que conquistou o mundo.
+              Carnes de altíssima qualidade, cortes nobres e o serviço
+              espeto corrido que não tem fim. Obrigatório para carnívoros.
+            </p>
+            <span class="tag-culinaria">🥩 Churrasco Gaúcho</span>
+          </div>
+        </div>
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80"
+            alt="Pizzaria italiana"
+          />
+          <div class="restaurante-body">
+            <h3>Bráz Pizzaria</h3>
+            <p class="restaurante-local">📍 Pinheiros, São Paulo, SP</p>
+            <span class="estrelas">★★★★★</span>
+            <p>
+              A pizza mais premiada de São Paulo. Massa fina e crocante,
+              molho de tomate italiano, ingredientes frescos e um forno
+              a lenha que faz toda a diferença no resultado final.
+            </p>
+            <span class="tag-culinaria">🍕 Pizzaria</span>
+          </div>
+        </div>
+
+        <div class="restaurante-card">
+          <img
+            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80"
+            alt="Bar com petiscos"
+          />
+          <div class="restaurante-body">
+            <h3>Bar da Dona Onça</h3>
+            <p class="restaurante-local">📍 Centro, São Paulo, SP</p>
+            <span class="estrelas">★★★★☆</span>
+            <p>
+              Petiscos e pratos da culinária paulistana tradicional em
+              ambiente que remete à São Paulo dos anos 50. Bolinho de
+              bacalhau crocante e chopp gelado para completar.
+            </p>
+            <span class="tag-culinaria">🍺 Bar & Petisco</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>📩 Dicas de Restaurantes na sua Caixa de Entrada</h2>
+      <p>Assine e receba novos reviews toda semana.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="Seu melhor e-mail..." required />
+        <button type="submit">Assinar Grátis</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-title">🍽️ Sabor &amp; Arte</span>
+        <p>Um blog dedicado à gastronomia brasileira e mundial.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="receitas.html">Receitas</a></li>
+          <li><a href="restaurantes.html">Restaurantes</a></li>
+          <li><a href="dicas.html">Dicas Culinárias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Cidades</h4>
+        <ul>
+          <li><a href="#">São Paulo</a></li>
+          <li><a href="#">Rio de Janeiro</a></li>
+          <li><a href="#">Belo Horizonte</a></li>
+          <li><a href="#">Curitiba</a></li>
+          <li><a href="#">Salvador</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="contatos.html">📧 contato@saborarte.com.br</a></li>
+          <li><a href="contatos.html">📱 (11) 9 9999-8888</a></li>
+          <li><a href="contatos.html">📍 São Paulo, SP</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Sabor &amp; Arte. Todos os direitos reservados.</span>
+      <span>Feito com ❤️ e muito 🧄</span>
+    </div>
+  </footer>
+
+  <script>
+    const d = new Date();
+    const opts = { weekday:'long', day:'numeric', month:'long', year:'numeric' };
+    document.getElementById('data-atual').textContent =
+      d.toLocaleDateString('pt-BR', opts);
+  </script>
+</body>
+</html>

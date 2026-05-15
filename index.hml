@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+        content="Sabor & Arte — Blog de gastronomia com receitas, restaurantes, dicas culinárias e muito mais." />
+  <title>Sabor &amp; Arte | Blog de Gastronomia</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header>
+    <div class="header-top">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🍽️</span>
+        <span class="logo-text">
+          <span class="logo-title">Sabor &amp; Arte</span>
+          <span class="logo-subtitle">Blog de Gastronomia</span>
+        </span>
+      </a>
+      <div class="header-info">
+        <span class="header-date" id="data-atual"></span>
+        <span class="header-slogan">Da cozinha ao coração 🧡</span>
+      </div>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">🏠 Home</a></li>
+        <li><a href="receitas.html">🥘 Receitas</a></li>
+        <li><a href="restaurantes.html">🍴 Restaurantes</a></li>
+        <li><a href="dicas.html">💡 Dicas Culinárias</a></li>
+        <li><a href="contatos.html">📬 Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== MAIN ===================== -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-badge">✨ Bem-vindo ao Sabor &amp; Arte</span>
+        <h1>Descubra o Prazer da Boa Gastronomia</h1>
+        <p>
+          Receitas irresistíveis, restaurantes imperdíveis, dicas de chefs e
+          a cultura gastronômica do Brasil e do mundo. Aqui, cada prato conta
+          uma história.
+        </p>
+        <a href="receitas.html" class="btn-hero">Explorar Receitas →</a>
+      </div>
+    </section>
+
+    <!-- SOBRE O BLOG -->
+    <section class="sobre">
+      <div class="sobre-grid">
+        <div class="sobre-texto">
+          <h2>O que é o Sabor &amp; Arte?</h2>
+          <p>
+            Somos um espaço dedicado a todos que amam a arte de cozinhar e
+            a experiência de comer bem. Aqui você encontra receitas
+            detalhadas, análises de restaurantes, dicas de técnicas
+            culinárias e muito conteúdo sobre a cultura gastronômica
+            brasileira e internacional.
+          </p>
+          <p>
+            Nosso time é formado por cozinheiros apaixonados, críticos
+            gastronômicos e amantes da boa mesa que se dedicam a trazer
+            o melhor conteúdo culinário para você.
+          </p>
+          <p>
+            Seja você um chef experiente ou alguém que está aprendendo
+            a fritar um ovo, o <strong>Sabor &amp; Arte</strong> tem
+            algo especial para te oferecer!
+          </p>
+          <div class="sobre-stats">
+            <div class="stat">
+              <span class="stat-numero">+150</span>
+              <span class="stat-label">Receitas</span>
+            </div>
+            <div class="stat">
+              <span class="stat-numero">+80</span>
+              <span class="stat-label">Restaurantes</span>
+            </div>
+            <div class="stat">
+              <span class="stat-numero">+30</span>
+              <span class="stat-label">Dicas Pro</span>
+            </div>
+            <div class="stat">
+              <span class="stat-numero">12k</span>
+              <span class="stat-label">Leitores</span>
+            </div>
+          </div>
+        </div>
+        <div class="sobre-imagem">
+          <img
+            src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=700&q=80"
+            alt="Mesa com pratos elaborados e coloridos"
+          />
+          <div class="sobre-imagem-badge">
+            <span>5+</span>
+            <small>anos de conteúdo</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTAQUES -->
+    <section class="destaques">
+      <div class="section-header">
+        <span class="section-tag">🌟 Nossos Conteúdos</span>
+        <h2>Destaques do Blog</h2>
+        <p>Conheça as três seções principais do Sabor &amp; Arte e mergulhe
+           no universo gastronômico.</p>
+        <div class="divisor"></div>
+      </div>
+
+      <div class="cards-grid">
+
+        <!-- Card Receitas -->
+        <a href="receitas.html" class="card">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=700&q=80"
+              alt="Diversas receitas elaboradas"
+            />
+            <span class="card-categoria">🥘 Receitas</span>
+          </div>
+          <div class="card-body">
+            <h3>Receitas para Todos os Paladares</h3>
+            <p>
+              De receitas clássicas da culinária brasileira a pratos
+              internacionais sofisticados. Passo a passo detalhado,
+              dicas de substituição e variações para dietas especiais.
+              Encontre sua próxima obra-prima na cozinha!
+            </p>
+            <span class="card-link">Explorar receitas →</span>
+          </div>
+        </a>
+
+        <!-- Card Restaurantes -->
+        <a href="restaurantes.html" class="card">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80"
+              alt="Restaurante elegante com mesa posta"
+            />
+            <span class="card-categoria">🍴 Restaurantes</span>
+          </div>
+          <div class="card-body">
+            <h3>Os Melhores Restaurantes do Brasil</h3>
+            <p>
+              Avaliações honestas e detalhadas dos melhores restaurantes
+              do país. Ambiente, atendimento, custo-benefício e, claro,
+              a qualidade dos pratos. Descubra onde comer bem na sua
+              cidade e nas suas viagens.
+            </p>
+            <span class="card-link">Ver restaurantes →</span>
+          </div>
+        </a>
+
+        <!-- Card Dicas -->
+        <a href="dicas.html" class="card">
+          <div class="card-img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=700&q=80"
+              alt="Chef preparando prato com técnica"
+            />
+            <span class="card-categoria">💡 Dicas</span>
+          </div>
+          <div class="card-body">
+            <h3>Dicas e Técnicas de Culinária</h3>
+            <p>
+              Aprenda as técnicas que os chefs usam no dia a dia.
+              Desde o corte correto dos legumes até o ponto perfeito
+              de um risoto. Dicas de conservação, harmonização de
+              vinhos e muito mais!
+            </p>
+            <span class="card-link">Ver dicas →</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- BANNER CTA -->
+    <div class="banner-cta">
+      <h2>🍳 Pronto para cozinhar algo incrível?</h2>
+      <p>
+        Explore nossas receitas, descubra novos restaurantes e aprenda
+        com os melhores chefs. O mundo gastronômico te espera!
+      </p>
+      <a href="receitas.html" class="btn-cta">Começar Agora</a>
+    </div>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <h2>📩 Receba Novidades Quentinhas</h2>
+      <p>Assine nossa newsletter e receba receitas, dicas e avaliações
+         de restaurantes diretamente no seu e-mail.</p>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="Seu melhor e-mail..." required />
+        <button type="submit">Assinar Grátis</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <span class="logo-title">🍽️ Sabor &amp; Arte</span>
+        <p>
+          Um blog dedicado à gastronomia brasileira e mundial.
+          Compartilhamos receitas, avaliações e dicas para quem
+          ama a arte de comer bem.
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="receitas.html">Receitas</a></li>
+          <li><a href="restaurantes.html">Restaurantes</a></li>
+          <li><a href="dicas.html">Dicas Culinárias</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="receitas.html">Culinária Brasileira</a></li>
+          <li><a href="receitas.html">Massas & Risotos</a></li>
+          <li><a href="receitas.html">Doces & Sobremesas</a></li>
+          <li><a href="dicas.html">Técnicas de Chef</a></li>
+          <li><a href="restaurantes.html">Fine Dining</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="contatos.html">📧 contato@saborarte.com.br</a></li>
+          <li><a href="contatos.html">📱 (11) 9 9999-8888</a></li>
+          <li><a href="contatos.html">📍 São Paulo, SP</a></li>
+          <li><a href="contatos.html">Instagram</a></li>
+          <li><a href="contatos.html">YouTube</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Sabor &amp; Arte. Todos os direitos reservados.</span>
+      <span>Feito com ❤️ e muito 🧄</span>
+    </div>
+  </footer>
+
+  <script>
+    // Exibe a data atual no header
+    const d = new Date();
+    const opts = { weekday:'long', day:'numeric', month:'long', year:'numeric' };
+    document.getElementById('data-atual').textContent =
+      d.toLocaleDateString('pt-BR', opts);
+  </script>
+
+</body>
+</html>
