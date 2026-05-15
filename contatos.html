@@ -3,8 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description"
-        content="Entre em contato com o blog Sabor & Arte. Sugestões, parcerias e muito mais." />
   <title>Contatos | Sabor &amp; Arte</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -41,9 +39,8 @@
       <span class="page-hero-icon">📬</span>
       <h1>Fale Conosco</h1>
       <p>
-        Tem uma sugestão de receita, quer indicar um restaurante
-        ou propor uma parceria? Adoramos ouvir nossa comunidade!
-        Entre em contato — respondemos todos os e-mails.
+        Tem uma sugestão de receita ou quer indicar um restaurante?
+        Use o formulário abaixo e entraremos em contato.
       </p>
       <div class="breadcrumb">
         <a href="index.html">Home</a>
@@ -52,59 +49,61 @@
       </div>
     </div>
 
-    <!-- CONTATOS -->
     <section class="contatos-section">
       <div class="contatos-grid">
 
-        <!-- Informações de Contato -->
+        <!-- Informações -->
         <div class="contatos-info">
-          <h2>Nossas Informações</h2>
+          <h2>Entre em Contato</h2>
           <p>
-            Estamos sempre disponíveis para conversar sobre gastronomia,
-            responder dúvidas sobre receitas e ouvir suas sugestões.
-            Nossa equipe responde em até 48 horas úteis.
+            Use o formulário ao lado para enviar sua mensagem.
+            Nossa equipe lê todas as mensagens e responde
+            sempre que possível.
           </p>
 
           <div class="contato-item">
             <div class="contato-icone">📧</div>
             <div class="contato-texto">
               <strong>E-mail</strong>
-              <span>contato@saborarte.com.br</span>
-            </div>
-          </div>
-
-          <div class="contato-item">
-            <div class="contato-icone">📱</div>
-            <div class="contato-texto">
-              <strong>WhatsApp</strong>
-              <span>(11) 9 9999-8888</span>
+              <span>Use o formulário ao lado</span>
             </div>
           </div>
 
           <div class="contato-item">
             <div class="contato-icone">📍</div>
             <div class="contato-texto">
-              <strong>Localização</strong>
-              <span>São Paulo, SP — Brasil</span>
+              <strong>Base do Blog</strong>
+              <span>Brasil</span>
             </div>
           </div>
 
           <div class="contato-item">
             <div class="contato-icone">🕐</div>
             <div class="contato-texto">
-              <strong>Horário de Atendimento</strong>
-              <span>Segunda a Sexta, das 9h às 18h</span>
+              <strong>Respostas</strong>
+              <span>Em até 5 dias úteis</span>
             </div>
           </div>
 
-          <!-- Redes Sociais -->
-          <div class="redes-sociais">
-            <h3>Nossas Redes Sociais</h3>
-            <div class="social-links">
-              <a href="#" class="social-link">📸 Instagram</a>
-              <a href="#" class="social-link">▶️ YouTube</a>
-              <a href="#" class="social-link">📌 Pinterest</a>
-            </div>
+          <!-- FAQ rápido -->
+          <div style="margin-top:30px; padding:24px; background:var(--cor-branco);
+                      border-radius:var(--raio); box-shadow:var(--sombra);">
+            <h3 style="font-family:var(--fonte-titulo); color:var(--cor-primaria);
+                       margin-bottom:14px;">❓ Perguntas Frequentes</h3>
+            <p style="font-size:0.88rem; color:var(--cor-texto-claro);
+                      margin-bottom:10px;">
+              <strong>Posso sugerir uma receita?</strong><br>
+              Sim! Use o assunto "Sugestão de Receita" no formulário.
+            </p>
+            <p style="font-size:0.88rem; color:var(--cor-texto-claro);
+                      margin-bottom:10px;">
+              <strong>Posso indicar um restaurante?</strong><br>
+              Claro! Selecione "Indicação de Restaurante" no formulário.
+            </p>
+            <p style="font-size:0.88rem; color:var(--cor-texto-claro);">
+              <strong>Vocês fazem parcerias?</strong><br>
+              Sim, selecione "Proposta de Parceria" e nos conte mais.
+            </p>
           </div>
         </div>
 
@@ -115,7 +114,7 @@
 
             <div class="form-row">
               <div class="form-grupo">
-                <label for="nome">Nome Completo *</label>
+                <label for="nome">Nome *</label>
                 <input
                   type="text"
                   id="nome"
@@ -139,13 +138,13 @@
             <div class="form-grupo">
               <label for="assunto">Assunto *</label>
               <select id="assunto" name="assunto" required>
-                <option value="">Selecione um assunto...</option>
+                <option value="">Selecione...</option>
                 <option value="sugestao-receita">💡 Sugestão de Receita</option>
                 <option value="indicacao-restaurante">🍴 Indicação de Restaurante</option>
                 <option value="parceria">🤝 Proposta de Parceria</option>
                 <option value="duvida">❓ Dúvida sobre Receita</option>
                 <option value="feedback">⭐ Feedback Geral</option>
-                <option value="outro">📝 Outro Assunto</option>
+                <option value="outro">📝 Outro</option>
               </select>
             </div>
 
@@ -154,17 +153,9 @@
               <textarea
                 id="mensagem"
                 name="mensagem"
-                placeholder="Escreva sua mensagem aqui..."
+                placeholder="Escreva sua mensagem..."
                 required
               ></textarea>
-            </div>
-
-            <div class="form-grupo">
-              <label>
-                <input type="checkbox" required style="margin-right:8px;" />
-                Concordo em receber respostas por e-mail e aceito a
-                <a href="#" style="color:var(--cor-secundaria);">Política de Privacidade</a>.
-              </label>
             </div>
 
             <button type="submit" class="btn-enviar">
@@ -175,78 +166,6 @@
         </div>
 
       </div>
-    </section>
-
-    <!-- FAQ -->
-    <section style="background:var(--cor-branco); padding:70px 60px;">
-      <div class="section-header">
-        <span class="section-tag">❓ Perguntas Frequentes</span>
-        <h2>FAQ</h2>
-        <p>Respostas para as perguntas mais comuns da nossa comunidade.</p>
-        <div class="divisor"></div>
-      </div>
-      <div class="dicas-grid" style="max-width:1100px; margin:0 auto;">
-
-        <div class="dica-item">
-          <div class="dica-icone">❓</div>
-          <div class="dica-conteudo">
-            <h3>Posso sugerir uma receita para vocês postarem?</h3>
-            <p>
-              Claro! Adoramos receitas da nossa comunidade. Envie
-              pelo formulário acima com o assunto "Sugestão de Receita"
-              e se aprovada, publicaremos com os devidos créditos para você.
-            </p>
-          </div>
-        </div>
-
-        <div class="dica-item">
-          <div class="dica-icone">🤝</div>
-          <div class="dica-conteudo">
-            <h3>Vocês fazem parcerias com restaurantes?</h3>
-            <p>
-              Sim! Trabalhamos com restaurantes para avaliações
-              patrocinadas, sempre deixando claro para nossos leitores
-              quando o conteúdo é patrocinado. Nossa credibilidade
-              é nossa maior prioridade.
-            </p>
-          </div>
-        </div>
-
-        <div class="dica-item">
-          <div class="dica-icone">📸</div>
-          <div class="dica-conteudo">
-            <h3>Posso usar as fotos do blog?</h3>
-            <p>
-              As imagens do blog são licenciadas pelo Unsplash e têm
-              uso livre. Peço apenas que dê os créditos adequados ao
-              blog e ao fotógrafo original quando usá-las.
-            </p>
-          </div>
-        </div>
-
-        <div class="dica-item">
-          <div class="dica-icone">📝</div>
-          <div class="dica-conteudo">
-            <h3>Posso escrever para o blog?</h3>
-            <p>
-              Estamos sempre abertos a colaborações! Se você é um
-              chef, crítico gastronômico ou apaixonado por culinária,
-              entre em contato com uma proposta de pauta e analisaremos
-              com muito carinho.
-            </p>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="newsletter">
-      <h2>📩 Fique por Dentro de Tudo</h2>
-      <p>Assine nossa newsletter e não perca nenhuma novidade.</p>
-      <form class="newsletter-form" onsubmit="return false;">
-        <input type="email" placeholder="Seu melhor e-mail..." required />
-        <button type="submit">Assinar Grátis</button>
-      </form>
     </section>
 
   </main>
@@ -268,20 +187,19 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Suporte</h4>
+        <h4>Conteúdo</h4>
         <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Política de Privacidade</a></li>
-          <li><a href="#">Termos de Uso</a></li>
-          <li><a href="#">Parcerias</a></li>
+          <li><a href="receitas.html">Receitas</a></li>
+          <li><a href="restaurantes.html">Restaurantes</a></li>
+          <li><a href="dicas.html">Dicas</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contato</h4>
+        <h4>Blog</h4>
         <ul>
-          <li><a href="#">📧 contato@saborarte.com.br</a></li>
-          <li><a href="#">📱 (11) 9 9999-8888</a></li>
-          <li><a href="#">📍 São Paulo, SP</a></li>
+          <li><a href="contatos.html">Fale Conosco</a></li>
+          <li><a href="contatos.html">Envie sua Receita</a></li>
+          <li><a href="contatos.html">Indique um Restaurante</a></li>
         </ul>
       </div>
     </div>
@@ -300,7 +218,7 @@
     function enviarFormulario(e) {
       e.preventDefault();
       const btn = document.querySelector('.btn-enviar');
-      btn.textContent = '✅ Mensagem Enviada com Sucesso!';
+      btn.textContent = '✅ Mensagem Enviada!';
       btn.style.background = '#2a7a2a';
       btn.disabled = true;
       setTimeout(() => {
